@@ -14,5 +14,5 @@ npm ERR! EPROTO: protocol error, symlink '../acorn/bin/acorn' -> '/frontend/node
 
 ```
 docker-compose run --rm frontend npm install express --no-bin-links
-docker up -d
+docker compose up -d
 ```
