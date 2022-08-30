@@ -1,3 +1,9 @@
+.header {
+  background-color: #0070f3;
+  height: auto;
+  padding: 20px;
+}
+
 .container {
   padding: 0 2rem;
 }
