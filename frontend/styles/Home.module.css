@@ -1,9 +1,12 @@
 .container {
   padding: 0 2rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+  min-height: 645px;
 }
 
 .main {
-  min-height: 200px;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -29,7 +32,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #05e0e9;
   text-decoration: none;
 }
 
@@ -88,8 +91,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #05e0e9;
+  border-color: #05e0e9;
 }
 
 .card h2 {
