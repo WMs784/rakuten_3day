@@ -1,7 +1,7 @@
 const Footer = ()=>{
     return (
     <div className="footer">
-        <p>ヴィッセル</p>
+        <p>©︎ヴィッセル</p>
     </div>
     )
 }

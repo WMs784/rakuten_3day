@@ -11,8 +11,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
-.titile {
-  font: oblique bold 120% cursive;
+.title {
+  font-family: 'Hannotate SC';
+  margin: 20px;
 }
 
 .item {
@@ -55,16 +56,29 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #4e1a3d;
   }
 }
 
 .header {
-  background-color: #FBDFF5;
-  padding:20px;
+  display: flex;
+  background-color: #ffc4d4;
+  width:100%;
+  justify-content:center;
+  padding:1em 0;
 }
 
+
 .footer {
-  background-color: #FBDFF5;
-  margin :0 auto ;
+  color: #4e1a3d;
+  background-color: #ffc4d4;
+  text-align:center ;
+  padding:0.5em 0;
+}
+
+.headerImage{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-color: #ffc4d4;
 }

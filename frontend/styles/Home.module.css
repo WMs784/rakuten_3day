@@ -1,15 +1,9 @@
-.header {
-  background-color: #0070f3;
-  height: auto;
-  padding: 20px;
-}
-
 .container {
   padding: 0 2rem;
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 200px;
   padding: 4rem 0;
   flex: 1;
   display: flex;

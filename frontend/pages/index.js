@@ -20,21 +20,12 @@ export default function Home() {
         <p className={styles.description}>
           
         </p>
-
+        <form className={styles.main} action="/result">
           <div className='condition'>
-          <div className='item'>
-            <p className='menu'>予算</p>
-            <p className='pull-down'>
-              <select name="cost" className='option'>
-                <option value="5000">5000</option>
-                <option value="10000">10000</option>
-              </select>
-            </p>
-          </div>
           <div className='item'>
             <p className='menu'>旅先</p>
             <p className='pull-down'>
-              <select name="destination" className='option'>
+              <select name="des" className='option'>
                 <option value="free">おまかせ</option>
                 <option value="hokkaido">北海道</option>
                 <option value="aomori">青森県</option>
@@ -86,12 +77,23 @@ export default function Home() {
               </select>
             </p>
           </div>
+          <div className='item'>
+            <p className='menu'>予算</p>
+            <p className='pull-down'>
+              <select name="cost" className='option'>
+                <option value="1000">1,000</option>
+                <option value="5000">5,000</option>
+                <option value="10000">10,000</option>
+              </select>
+            </p>
+          </div>
           </div>
           <div>
-          <Link href="/result">
+          {/* <Link href="/result"> */}
             <button className='btn' type='submit'>ガチャを回す</button>
-          </Link>
+          {/* </Link> */}
           </div>
+          </form>
       </main>
     </div>
   )
