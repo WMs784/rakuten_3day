@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 import {  useState, useEffect, useCallback, memo } from "react";
 
-const Result = memo(({spots}) => {
+const Result = memo(({spots}) => function gacha() {
   const [start, setStart] = useState(false);
   const [index, setIndex] = useState(0);
 
