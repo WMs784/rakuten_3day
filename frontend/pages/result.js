@@ -52,16 +52,16 @@ const Result = memo(() => {
   }, [start]);
 
   return (
-    <>
-      <div>
-        <p>行き先は・・・</p>
-        <p>{rouletteContents1[index]}</p>
-        <p>{rouletteContents2[index]}</p>
+    <div className={styles.main}>
+        <p className='menu'>行き先は・・・</p>
+      <div className={styles.content}>
+        <p className='item'>{rouletteContents1[index]}</p>
+        <p className='item'>{rouletteContents2[index]}</p>
       </div>
-      <button type="button" onClick={startRoulette}>
+      <button className='btn' type="button" onClick={startRoulette}>
         {start ? "スタート" : "ストップ"}
       </button>
-    </>
+    </div>
   );
 });
 

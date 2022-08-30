@@ -1,3 +1,9 @@
+# color code
+## backgroud-color #ffc4d4
+## font-color #4e1a3d
+## sub-color #ff2768
+## accent-color #05e0e9
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
