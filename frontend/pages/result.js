@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 import {  useState, useEffect, useCallback, memo } from "react";
 
-const Result = memo(({spots}) => function gacha() {
+export default function Result ({spots}){
   const [start, setStart] = useState(false);
   const [index, setIndex] = useState(0);
 
@@ -81,9 +81,9 @@ const Result = memo(({spots}) => function gacha() {
         </div>
     </div>
   );
-});
+};
 
-export default Result
+// export default Result
 
 export async function getServerSideProps(context) {
     const queryParams = new URLSearchParams(context.query).toString();
